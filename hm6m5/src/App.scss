@@ -1,0 +1,21 @@
+@import './common/colors.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-sans", sans-serif;
+}
+body{
+    background: $primary-color;
+}
+.serach-img{
+    display: flex;
+    gap: 30px;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}

@@ -1,0 +1,25 @@
+@import '../../common/colors.scss';
+
+.movieListing{
+    padding: 25px 35px;
+
+    .section-buttons{
+        display: flex;
+        gap: 20px;
+        h2{
+            margin-bottom: 10px;
+            color: $font-secondary;
+            font-weight: 500;
+        }
+    }
+    
+    // .movie-list,
+    // .show-list{
+    //     margin: 20px 0px;
+    // }
+}
+.movie-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
